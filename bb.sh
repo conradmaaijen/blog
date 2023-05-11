@@ -1086,6 +1086,8 @@ usage() {
     echo "    tags [-n]               list all tags in alphabetical order"
     echo "                            use '-n' to sort list by number of posts"
     echo ""
+    echo "Use 'bbg [commitMessage]' to push to github"
+    echo ""
     echo "For more information please open $0 in a code editor and read the header and comments"
 }
 
