@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel><title>#!/bash blog</title><link>http://blog.test/index.html</link>
+<description>A blog about trials and errors</description><language>en</language>
+<lastBuildDate>Thu, 11 May 2023 16:58:43 +0200</lastBuildDate>
+<pubDate>Thu, 11 May 2023 16:58:43 +0200</pubDate>
+<atom:link href="http://blog.test/feed.rss" rel="self" type="application/rss+xml" />
+<item><title>
+This is a attempt to show code
+</title><description><![CDATA[
+
+<p>How will it look like if a block of code is added to this markdown file?  </p>
+
+<pre><code>&lt;?php
+
+echo "hello world";
+
+?&gt;
+</code></pre>
+
+<p>Tags: <a href='tag_php.html'>php</a>, <a href='tag_code.html'>code</a></p>
+
+
+
+
+<!-- text end -->
+<p id='twitter'><a href='http://twitter.com/intent/tweet?url=http://blog.test/this-is-a-attempt-to-show-code.html&text=&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;&via=conradmaaijen'>Comments? Tweet</a> 
+<a href='https://twitter.com/search?q=http://blog.test/this-is-a-attempt-to-show-code.html'><span id='count-21714'></span></a>&nbsp;</p>
+]]></description><link>http://blog.test/this-is-a-attempt-to-show-code.html</link>
+<guid>http://blog.test/./this-is-a-attempt-to-show-code.html</guid>
+<dc:creator>Conrad Maaijen</dc:creator>
+<pubDate>Thu, 11 May 2023 16:20:31 +0200</pubDate></item>
+<item><title>
+My first blog post
+</title><description><![CDATA[
+
+<p>The rest of the text file is a <strong>Markdown</strong> blog post. The process will continue
+as soon as you exit your editor.</p>
+
+<p>Tags: <a href='tag_keep-this-tag-format.html'>keep-this-tag-format</a>, <a href='tag_tags-are-optional.html'>tags-are-optional</a>, <a href='tag_beware-with-underscores-in-markdown.html'>beware-with-underscores-in-markdown</a>, <a href='tag_example.html'>example</a></p>
+
+
+
+
+
+<!-- text end -->
+<p id='twitter'><a href='http://twitter.com/intent/tweet?url=http://blog.test/my-first-blog-post5357.html&text=&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;&via=conradmaaijen'>Comments? Tweet</a> 
+<a href='https://twitter.com/search?q=http://blog.test/my-first-blog-post5357.html'><span id='count-14583'></span></a>&nbsp;</p>
+]]></description><link>http://blog.test/my-first-blog-post5357.html</link>
+<guid>http://blog.test/./my-first-blog-post5357.html</guid>
+<dc:creator>Conrad Maaijen</dc:creator>
+<pubDate>Thu, 11 May 2023 16:04:08 +0200</pubDate></item>
+<item><title>
+Third title on this line
+</title><description><![CDATA[
+
+<p>The rest of the text file is a <strong>Markdown</strong> blog post. The process will continue
+as soon as you exit your editor.</p>
+
+<p>Tags: <a href='tag_keep-this-tag-format.html'>keep-this-tag-format</a>, <a href='tag_tags-are-optional.html'>tags-are-optional</a>, <a href='tag_beware-with-underscores-in-markdown.html'>beware-with-underscores-in-markdown</a>, <a href='tag_example.html'>example</a></p>
+
+
+
+
+
+<!-- text end -->
+<p id='twitter'><a href='http://twitter.com/intent/tweet?url=http://blog.test/third-title-on-this-line.html&text=&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;&via=conradmaaijen'>Comments? Tweet</a> 
+<a href='https://twitter.com/search?q=http://blog.test/third-title-on-this-line.html'><span id='count-27047'></span></a>&nbsp;</p>
+]]></description><link>http://blog.test/third-title-on-this-line.html</link>
+<guid>http://blog.test/./third-title-on-this-line.html</guid>
+<dc:creator>Conrad Maaijen</dc:creator>
+<pubDate>Thu, 11 May 2023 16:00:17 +0200</pubDate></item>
+<item><title>
+Another marvelous post
+</title><description><![CDATA[
+
+<p>It is time to write something very <strong>interesting</strong> on this page. The process will continue
+as soon as you exit your editor.</p>
+
+<p>Tags: <a href='tag_tags-are-optional.html'>tags-are-optional</a>, <a href='tag_very-interesting.html'>very-interesting</a></p>
+
+
+
+
+
+<!-- text end -->
+<p id='twitter'><a href='http://twitter.com/intent/tweet?url=http://blog.test/another-marvelous-post.html&text=&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;&via=conradmaaijen'>Comments? Tweet</a> 
+<a href='https://twitter.com/search?q=http://blog.test/another-marvelous-post.html'><span id='count-20335'></span></a>&nbsp;</p>
+]]></description><link>http://blog.test/another-marvelous-post.html</link>
+<guid>http://blog.test/./another-marvelous-post.html</guid>
+<dc:creator>Conrad Maaijen</dc:creator>
+<pubDate>Thu, 11 May 2023 15:30:59 +0200</pubDate></item>
+</channel></rss>
