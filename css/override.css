@@ -56,10 +56,15 @@ pre {
 
 pre code {
    overflow-x:auto !important;
-
+   color: #ababab !important;
 }
 hr {
    border-bottom: 1px dashed #222222;
+   display: none;
+}
+
+.content img {
+   padding-top: 8px;
 }
 
 @media only screen and (max-width: 850px) {

@@ -9,6 +9,8 @@ Make sure you are in the root directory of the project you want to push to GitHu
 
 ---
 
+![How to Push an Existing Project to Github](/images/github.jpeg)
+
 	git init
 
 This step creates a hidden `.git` directory in your project folder, which the `git` software recognizes and uses to store all the metadata and version history for the project.

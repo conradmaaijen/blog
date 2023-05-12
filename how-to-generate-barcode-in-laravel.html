@@ -1,0 +1,110 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name=description content="Bash Blog">
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta name=robots content="all,follow">
+<meta name=googlebot content="index,follow,snippet,archive">
+<meta name=generator content="Bashblog 2.10">
+<meta charset=utf-8><meta http-equiv=x-ua-compatible content="IE=edge">
+<link rel=stylesheet href="/css/terminal-0.7.2.min.css">
+<link rel=stylesheet href="/css/animate-4.1.1.min.css">
+<link rel=stylesheet href="/css/console.css">
+<link rel=stylesheet href="/css/override.css">
+<link rel="me" href="https://mastodon.nl/@conrad">
+<title>How to generate BarCode in Laravel</title>
+<meta name='twitter:card' content='summary' />
+<meta name='twitter:site' content='@conradmaaijen' />
+<meta name='twitter:title' content='How to generate BarCode in Laravel' />
+<meta name='twitter:description' content=" In this post, we will use a laravel barcode generator example. You will learn how to save generate bar code in laravel. Here, i will create a very basic example of picqer/php-barcode-generator laravel php.  So you can easily generate any barcode by " />
+</head><body>
+<div class="terminal container" id="divbodyholder">
+<div class="terminal-nav"><div class="header">
+<div class="logo terminal-prompt" id="title">
+<span class="nomargin"><a class="ablack" href="https://bloody-fang.surge.sh/index.html">#!bash conrad</a>:~# </span>
+<!-- <div id="description">A blog about trials and errors</div> -->
+</div></div></div>
+<div id="divbody"><div class="content">
+<!-- entry begin -->
+<h1><a class="ablack" href="how-to-generate-barcode-in-laravel.html">
+How to generate BarCode in Laravel
+</a></h1>
+<!-- bashblog_timestamp: #202305121350.36# -->
+<div class="subtitle">May 12, 2023 &mdash; 
+Conrad Maaijen
+</div>
+<!-- text begin -->
+
+<p>In this post, we will use a laravel barcode generator example. You will learn how to save generate bar code in laravel. Here, i will create a very basic example of picqer/php-barcode-generator laravel php.</p>
+
+<p>So you can easily generate any barcode by using laravel 8, 9, any version easily. picqer/php-barcode-generator is a very composer package for generate barcode in our laravel 8 application. I can simply generate any svg, png, jpg and html image of barcode.</p>
+
+<hr />
+
+<p><img src="/images/generate-barcodes.webp" alt="How to generate BarCode in Laravel" title="" /></p>
+
+<p>Here are the steps to generate bar code in Laravel:</p>
+
+<h2>Step 1: Install Laravel</h2>
+
+<p>In first step, if you haven’t done already, install a fresh Laravel project.</p>
+
+<pre><code>composer create-project --prefer-dist laravel/laravel projectname
+</code></pre>
+
+<h2>Step 2: Install picqer/php-barcode-generator package</h2>
+
+<p>Now we have to install a package. picqer/php-barcode-generator package is best for barcode generator, that way we can use it’s method. So, open your terminal and run below command.</p>
+
+<pre><code>composer require picqer/php-barcode-generator
+</code></pre>
+
+<h2>Step 3: Create Route</h2>
+
+<p>Now In this step, i will create one route for testing our example project. So, let’s add a new route on the file: routes/web.php</p>
+
+<pre><code>Route::view('barcode', 'barcode');
+</code></pre>
+
+<p>Step 4: Create a Blade file</p>
+
+<p>Now create barcode.blade.php for displaying the barcode output.</p>
+
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+      &lt;title&gt;Generate BarCode in Laravel&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;h1&gt;Generate BarCode in Laravel?&lt;/h1&gt;
+
+&lt;h3&gt;Product: 00012456732636&lt;/h3&gt;
+@php
+      $generator = new Picqer\Barcode\BarcodeGeneratorHTML();
+@endphp
+
+{!! $generator-&gt;getBarcode('00012456732636', $generator::TYPE_CODE_128) !!}
+
+&lt;h3&gt;Product 2: 00012456732636&lt;/h3&gt;
+@php
+      $generatorPNG = new Picqer\Barcode\BarcodeGeneratorPNG();
+@endphp
+
+&lt;img src​="data:image/png;base64,{!! base64_encode($generatorPNG-&gt;getBarcode('00012456732636', $generatorPNG::TYPE_CODE_128)) !!}"&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+
+<p>What’s your output ?</p>
+
+<p>Tags: <a href='tag_laravel.html'>laravel</a></p>
+<!-- text end -->
+<p id='twitter'><a href='http://twitter.com/intent/tweet?url=https://bloody-fang.surge.sh/how-to-generate-barcode-in-laravel.html&text=&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;&via=conradmaaijen'>Comments? Tweet</a> 
+<a href='https://twitter.com/search?q=https://bloody-fang.surge.sh/how-to-generate-barcode-in-laravel.html'><span id='count-15787'></span></a>&nbsp;</p>
+<!-- entry end -->
+</div>
+<div class="footer" id="footer">
+Powered by <a href="https://github.com/cfenollosa/bashblog">bashblog</a> with <a href="https://github.com/mrmierzejewski/hugo-theme-console/">Console Theme</a>.</div>
+</div></div>
+</body></html>
