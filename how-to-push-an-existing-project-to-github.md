@@ -7,11 +7,11 @@ From your terminal, run the following commands after navigating to the folder yo
 Make sure you are in the root directory of the project you want to push to GitHub and run: 
 *Note: If you already have an initialized Git repository, you can skip this command.*
 
+---
+
 	git init
 
 This step creates a hidden `.git` directory in your project folder, which the `git` software recognizes and uses to store all the metadata and version history for the project.
-
----
 
 ## Add the files to Git index
 

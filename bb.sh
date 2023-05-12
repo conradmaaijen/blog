@@ -20,7 +20,7 @@ global_variables() {
     global_software_version="2.10"
 
     # Blog title
-    global_title="#!bash blog"
+    global_title="#!bash conrad"
     # The typical subtitle for each blog
     global_description="A blog about trials and errors"
     # The public base URL for this blog
@@ -75,7 +75,7 @@ global_variables() {
 
     # feed file (rss in this case)
     blog_feed="feed.rss"
-    number_of_feed_articles="10"
+    number_of_feed_articles="5"
     # "cut" blog entry when putting it to index page. Leave blank for full articles in front page
     # i.e. include only up to first '<hr>', or '----' in markdown
     cut_do="cut"

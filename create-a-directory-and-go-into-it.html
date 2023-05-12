@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name=description content="Bash Blog">
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta name=robots content="all,follow">
+<meta name=googlebot content="index,follow,snippet,archive">
+<meta name=generator content="Bashblog 2.10">
+<meta charset=utf-8><meta http-equiv=x-ua-compatible content="IE=edge">
+<link rel=stylesheet href="/css/terminal-0.7.2.min.css">
+<link rel=stylesheet href="/css/animate-4.1.1.min.css">
+<link rel=stylesheet href="/css/console.css">
+<link rel=stylesheet href="/css/override.css">
+<link rel="me" href="https://mastodon.nl/@conrad">
+<title>Create a directory and go into it.</title>
+<meta name='twitter:card' content='summary' />
+<meta name='twitter:site' content='@conradmaaijen' />
+<meta name='twitter:title' content='Create a directory and go into it.' />
+<meta name='twitter:description' content=" Sometime the smallest bash scripts will help you stopping from doing the same thing over and over again. E.g. typing mkdir sample and then cd sample.  Let's create a very small function that always takes you into the directory you just created.    #" />
+</head><body>
+<div class="terminal container" id="divbodyholder">
+<div class="terminal-nav"><div class="header">
+<div class="logo terminal-prompt" id="title">
+<span class="nomargin"><a class="ablack" href="http://blog.test/index.html">#!bash conrad</a>:~# </span>
+<!-- <div id="description">A blog about trials and errors</div> -->
+</div></div></div>
+<div id="divbody"><div class="content">
+<!-- entry begin -->
+<h1><a class="ablack" href="create-a-directory-and-go-into-it.html">
+Create a directory and go into it.
+</a></h1>
+<!-- bashblog_timestamp: #202305121132.51# -->
+<div class="subtitle">May 12, 2023 &mdash; 
+Conrad Maaijen
+</div>
+<!-- text begin -->
+
+<p>Sometime the smallest bash scripts will help you stopping from doing the same thing over and over again.
+E.g. typing <code>mkdir sample</code> and then <code>cd sample</code>.</p>
+
+<p>Let's create a very small function that always takes you into the directory you just created.</p>
+
+<hr />
+
+<pre><code># Create a new directory and enter it
+
+function mkd() {
+    mkdir -p "$@" &amp;&amp; cd "$@"
+}
+</code></pre>
+
+<p>Now you just have to type <code>mkd sample</code> and you are inside the sample directory.</p>
+
+<p>Not the most shocking example, but you can use these simple functions to prevent repetitive commands.</p>
+
+<p>Tags: <a href='tag_bash-scripts.html'>bash-scripts</a></p>
+
+<!-- text end -->
+<p id='twitter'><a href='http://twitter.com/intent/tweet?url=http://blog.test/create-a-directory-and-go-into-it.html&text=&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;&via=conradmaaijen'>Comments? Tweet</a> 
+<a href='https://twitter.com/search?q=http://blog.test/create-a-directory-and-go-into-it.html'><span id='count-5157'></span></a>&nbsp;</p>
+<!-- entry end -->
+</div>
+<div class="footer" id="footer">
+Powered by <a href="https://github.com/cfenollosa/bashblog">bashblog</a> with <a href="https://github.com/mrmierzejewski/hugo-theme-console/">Console Theme</a>.</div>
+</div></div>
+</body></html>

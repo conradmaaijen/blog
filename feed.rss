@@ -1,10 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
-<channel><title>#!bash blog</title><link>http://blog.test/index.html</link>
+<channel><title>#!bash conrad</title><link>http://blog.test/index.html</link>
 <description>A blog about trials and errors</description><language>en</language>
-<lastBuildDate>Fri, 12 May 2023 11:16:58 +0200</lastBuildDate>
-<pubDate>Fri, 12 May 2023 11:16:58 +0200</pubDate>
+<lastBuildDate>Fri, 12 May 2023 11:38:00 +0200</lastBuildDate>
+<pubDate>Fri, 12 May 2023 11:38:00 +0200</pubDate>
 <atom:link href="http://blog.test/feed.rss" rel="self" type="application/rss+xml" />
+<item><title>
+Create a directory and go into it.
+</title><description><![CDATA[
+
+<p>Sometime the smallest bash scripts will help you stopping from doing the same thing over and over again.
+E.g. typing <code>mkdir sample</code> and then <code>cd sample</code>.</p>
+
+<p>Let's create a very small function that always takes you into the directory you just created.</p>
+
+<hr />
+<p id='twitter'><a href='http://twitter.com/intent/tweet?url=http://blog.test/create-a-directory-and-go-into-it.html&text=&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;&via=conradmaaijen'>Comments? Tweet</a> 
+<a href='https://twitter.com/search?q=http://blog.test/create-a-directory-and-go-into-it.html'><span id='count-5157'></span></a>&nbsp;</p>
+]]></description><link>http://blog.test/create-a-directory-and-go-into-it.html</link>
+<guid>http://blog.test/./create-a-directory-and-go-into-it.html</guid>
+<dc:creator>Conrad Maaijen</dc:creator>
+<pubDate>Fri, 12 May 2023 11:32:51 +0200</pubDate></item>
 <item><title>
 How to Push an Existing Project to Github
 </title><description><![CDATA[
@@ -16,14 +32,9 @@ How to Push an Existing Project to Github
 <p>Make sure you are in the root directory of the project you want to push to GitHub and run: 
 <em>Note: If you already have an initialized Git repository, you can skip this command.</em></p>
 
-<pre><code>git init
-</code></pre>
-
-<p>This step creates a hidden <code>.git</code> directory in your project folder, which the <code>git</code> software recognizes and uses to store all the metadata and version history for the project.</p>
-
 <hr />
 <p id='twitter'><a href='http://twitter.com/intent/tweet?url=http://blog.test/how-to-push-an-existing-project-to-github.html&text=&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;&via=conradmaaijen'>Comments? Tweet</a> 
-<a href='https://twitter.com/search?q=http://blog.test/how-to-push-an-existing-project-to-github.html'><span id='count-28250'></span></a>&nbsp;</p>
+<a href='https://twitter.com/search?q=http://blog.test/how-to-push-an-existing-project-to-github.html'><span id='count-4834'></span></a>&nbsp;</p>
 ]]></description><link>http://blog.test/how-to-push-an-existing-project-to-github.html</link>
 <guid>http://blog.test/./how-to-push-an-existing-project-to-github.html</guid>
 <dc:creator>Conrad Maaijen</dc:creator>
@@ -53,9 +64,11 @@ as soon as you exit your editor.</p>
 
 
 
+
+
 <!-- text end -->
 <p id='twitter'><a href='http://twitter.com/intent/tweet?url=http://blog.test/my-first-blog-post5357.html&text=&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;&via=conradmaaijen'>Comments? Tweet</a> 
-<a href='https://twitter.com/search?q=http://blog.test/my-first-blog-post5357.html'><span id='count-27935'></span></a>&nbsp;</p>
+<a href='https://twitter.com/search?q=http://blog.test/my-first-blog-post5357.html'><span id='count-15193'></span></a>&nbsp;</p>
 ]]></description><link>http://blog.test/my-first-blog-post5357.html</link>
 <guid>http://blog.test/./my-first-blog-post5357.html</guid>
 <dc:creator>Conrad Maaijen</dc:creator>
@@ -85,9 +98,11 @@ as soon as you exit your editor.</p>
 
 
 
+
+
 <!-- text end -->
 <p id='twitter'><a href='http://twitter.com/intent/tweet?url=http://blog.test/third-title-on-this-line.html&text=&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;&via=conradmaaijen'>Comments? Tweet</a> 
-<a href='https://twitter.com/search?q=http://blog.test/third-title-on-this-line.html'><span id='count-23373'></span></a>&nbsp;</p>
+<a href='https://twitter.com/search?q=http://blog.test/third-title-on-this-line.html'><span id='count-26724'></span></a>&nbsp;</p>
 ]]></description><link>http://blog.test/third-title-on-this-line.html</link>
 <guid>http://blog.test/./third-title-on-this-line.html</guid>
 <dc:creator>Conrad Maaijen</dc:creator>
@@ -117,9 +132,11 @@ as soon as you exit your editor.</p>
 
 
 
+
+
 <!-- text end -->
 <p id='twitter'><a href='http://twitter.com/intent/tweet?url=http://blog.test/another-marvelous-post.html&text=&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;&via=conradmaaijen'>Comments? Tweet</a> 
-<a href='https://twitter.com/search?q=http://blog.test/another-marvelous-post.html'><span id='count-4931'></span></a>&nbsp;</p>
+<a href='https://twitter.com/search?q=http://blog.test/another-marvelous-post.html'><span id='count-16812'></span></a>&nbsp;</p>
 ]]></description><link>http://blog.test/another-marvelous-post.html</link>
 <guid>http://blog.test/./another-marvelous-post.html</guid>
 <dc:creator>Conrad Maaijen</dc:creator>
