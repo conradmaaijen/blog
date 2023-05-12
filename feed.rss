@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
-<channel><title>#!/bash blog</title><link>http://blog.test/index.html</link>
+<channel><title>#!bash blog</title><link>http://blog.test/index.html</link>
 <description>A blog about trials and errors</description><language>en</language>
-<lastBuildDate>Thu, 11 May 2023 21:53:16 +0200</lastBuildDate>
-<pubDate>Thu, 11 May 2023 21:53:16 +0200</pubDate>
+<lastBuildDate>Fri, 12 May 2023 08:57:25 +0200</lastBuildDate>
+<pubDate>Fri, 12 May 2023 08:57:25 +0200</pubDate>
 <atom:link href="http://blog.test/feed.rss" rel="self" type="application/rss+xml" />
 <item><title>
 This is a attempt to show code
@@ -28,9 +28,10 @@ echo "hello world";
 
 
 
+
 <!-- text end -->
 <p id='twitter'><a href='http://twitter.com/intent/tweet?url=http://blog.test/this-is-a-attempt-to-show-code.html&text=&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;&via=conradmaaijen'>Comments? Tweet</a> 
-<a href='https://twitter.com/search?q=http://blog.test/this-is-a-attempt-to-show-code.html'><span id='count-32294'></span></a>&nbsp;</p>
+<a href='https://twitter.com/search?q=http://blog.test/this-is-a-attempt-to-show-code.html'><span id='count-16168'></span></a>&nbsp;</p>
 ]]></description><link>http://blog.test/this-is-a-attempt-to-show-code.html</link>
 <guid>http://blog.test/./this-is-a-attempt-to-show-code.html</guid>
 <dc:creator>Conrad Maaijen</dc:creator>
@@ -53,9 +54,10 @@ as soon as you exit your editor.</p>
 
 
 
+
 <!-- text end -->
 <p id='twitter'><a href='http://twitter.com/intent/tweet?url=http://blog.test/my-first-blog-post5357.html&text=&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;&via=conradmaaijen'>Comments? Tweet</a> 
-<a href='https://twitter.com/search?q=http://blog.test/my-first-blog-post5357.html'><span id='count-20886'></span></a>&nbsp;</p>
+<a href='https://twitter.com/search?q=http://blog.test/my-first-blog-post5357.html'><span id='count-27156'></span></a>&nbsp;</p>
 ]]></description><link>http://blog.test/my-first-blog-post5357.html</link>
 <guid>http://blog.test/./my-first-blog-post5357.html</guid>
 <dc:creator>Conrad Maaijen</dc:creator>
@@ -78,9 +80,10 @@ as soon as you exit your editor.</p>
 
 
 
+
 <!-- text end -->
 <p id='twitter'><a href='http://twitter.com/intent/tweet?url=http://blog.test/third-title-on-this-line.html&text=&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;&via=conradmaaijen'>Comments? Tweet</a> 
-<a href='https://twitter.com/search?q=http://blog.test/third-title-on-this-line.html'><span id='count-26642'></span></a>&nbsp;</p>
+<a href='https://twitter.com/search?q=http://blog.test/third-title-on-this-line.html'><span id='count-31352'></span></a>&nbsp;</p>
 ]]></description><link>http://blog.test/third-title-on-this-line.html</link>
 <guid>http://blog.test/./third-title-on-this-line.html</guid>
 <dc:creator>Conrad Maaijen</dc:creator>
@@ -103,9 +106,10 @@ as soon as you exit your editor.</p>
 
 
 
+
 <!-- text end -->
 <p id='twitter'><a href='http://twitter.com/intent/tweet?url=http://blog.test/another-marvelous-post.html&text=&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;&via=conradmaaijen'>Comments? Tweet</a> 
-<a href='https://twitter.com/search?q=http://blog.test/another-marvelous-post.html'><span id='count-17338'></span></a>&nbsp;</p>
+<a href='https://twitter.com/search?q=http://blog.test/another-marvelous-post.html'><span id='count-32095'></span></a>&nbsp;</p>
 ]]></description><link>http://blog.test/another-marvelous-post.html</link>
 <guid>http://blog.test/./another-marvelous-post.html</guid>
 <dc:creator>Conrad Maaijen</dc:creator>
