@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
-<channel><title>#!bash conrad</title><link>https://bloody-fang.surge.sh/index.html</link>
+<channel><title>#!bash conrad</title><link>https://bash.maayen.nl/index.html</link>
 <description>A blog about trials and errors</description><language>en</language>
-<lastBuildDate>Fri, 12 May 2023 15:46:07 +0200</lastBuildDate>
-<pubDate>Fri, 12 May 2023 15:46:07 +0200</pubDate>
-<atom:link href="https://bloody-fang.surge.sh/feed.rss" rel="self" type="application/rss+xml" />
+<lastBuildDate>Fri, 12 May 2023 17:04:21 +0200</lastBuildDate>
+<pubDate>Fri, 12 May 2023 17:04:21 +0200</pubDate>
+<atom:link href="https://bash.maayen.nl/feed.rss" rel="self" type="application/rss+xml" />
 <item><title>
 How to generate BarCode in Laravel
 </title><description><![CDATA[
@@ -14,10 +14,10 @@ How to generate BarCode in Laravel
 <p>So you can easily generate any barcode by using laravel 8, 9, any version easily. picqer/php-barcode-generator is a very composer package for generate barcode in our laravel 8 application. I can simply generate any svg, png, jpg and html image of barcode.</p>
 
 <hr />
-<p id='twitter'><a href='http://twitter.com/intent/tweet?url=https://bloody-fang.surge.sh/how-to-generate-barcode-in-laravel.html&text=&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;&via=conradmaaijen'>Comments? Tweet</a> 
-<a href='https://twitter.com/search?q=https://bloody-fang.surge.sh/how-to-generate-barcode-in-laravel.html'><span id='count-15787'></span></a>&nbsp;</p>
-]]></description><link>https://bloody-fang.surge.sh/how-to-generate-barcode-in-laravel.html</link>
-<guid>https://bloody-fang.surge.sh/./how-to-generate-barcode-in-laravel.html</guid>
+<p id='twitter'><a href='http://twitter.com/intent/tweet?url=https://bash.maayen.nl/how-to-generate-barcode-in-laravel.html&text=&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;&via=conradmaaijen'>Comments? Tweet</a> 
+<a href='https://twitter.com/search?q=https://bash.maayen.nl/how-to-generate-barcode-in-laravel.html'><span id='count-2977'></span></a>&nbsp;</p>
+]]></description><link>https://bash.maayen.nl/how-to-generate-barcode-in-laravel.html</link>
+<guid>https://bash.maayen.nl/./how-to-generate-barcode-in-laravel.html</guid>
 <dc:creator>Conrad Maaijen</dc:creator>
 <pubDate>Fri, 12 May 2023 13:50:36 +0200</pubDate></item>
 <item><title>
@@ -29,10 +29,10 @@ Better deletion of files with Trash
 <p>Better would be installing <code>Trash</code> on your machine. Trash moves you file to the Recycle bin like it does when you remove a file using the Finder on a Mac. So let install <a href="https://github.com/sindresorhus/trash">Trash</a>.</p>
 
 <hr />
-<p id='twitter'><a href='http://twitter.com/intent/tweet?url=https://bloody-fang.surge.sh/better-deletion-of-files-with-trash.html&text=&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;&via=conradmaaijen'>Comments? Tweet</a> 
-<a href='https://twitter.com/search?q=https://bloody-fang.surge.sh/better-deletion-of-files-with-trash.html'><span id='count-24227'></span></a>&nbsp;</p>
-]]></description><link>https://bloody-fang.surge.sh/better-deletion-of-files-with-trash.html</link>
-<guid>https://bloody-fang.surge.sh/./better-deletion-of-files-with-trash.html</guid>
+<p id='twitter'><a href='http://twitter.com/intent/tweet?url=https://bash.maayen.nl/better-deletion-of-files-with-trash.html&text=&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;&via=conradmaaijen'>Comments? Tweet</a> 
+<a href='https://twitter.com/search?q=https://bash.maayen.nl/better-deletion-of-files-with-trash.html'><span id='count-20265'></span></a>&nbsp;</p>
+]]></description><link>https://bash.maayen.nl/better-deletion-of-files-with-trash.html</link>
+<guid>https://bash.maayen.nl/./better-deletion-of-files-with-trash.html</guid>
 <dc:creator>Conrad Maaijen</dc:creator>
 <pubDate>Fri, 12 May 2023 13:39:15 +0200</pubDate></item>
 <item><title>
@@ -43,10 +43,10 @@ Create a directory and go into it.
 E.g. typing <code>mkdir sample</code> and then <code>cd sample</code>.</p>
 
 <hr />
-<p id='twitter'><a href='http://twitter.com/intent/tweet?url=https://bloody-fang.surge.sh/create-a-directory-and-go-into-it.html&text=&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;&via=conradmaaijen'>Comments? Tweet</a> 
-<a href='https://twitter.com/search?q=https://bloody-fang.surge.sh/create-a-directory-and-go-into-it.html'><span id='count-8462'></span></a>&nbsp;</p>
-]]></description><link>https://bloody-fang.surge.sh/create-a-directory-and-go-into-it.html</link>
-<guid>https://bloody-fang.surge.sh/./create-a-directory-and-go-into-it.html</guid>
+<p id='twitter'><a href='http://twitter.com/intent/tweet?url=https://bash.maayen.nl/create-a-directory-and-go-into-it.html&text=&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;&via=conradmaaijen'>Comments? Tweet</a> 
+<a href='https://twitter.com/search?q=https://bash.maayen.nl/create-a-directory-and-go-into-it.html'><span id='count-13682'></span></a>&nbsp;</p>
+]]></description><link>https://bash.maayen.nl/create-a-directory-and-go-into-it.html</link>
+<guid>https://bash.maayen.nl/./create-a-directory-and-go-into-it.html</guid>
 <dc:creator>Conrad Maaijen</dc:creator>
 <pubDate>Fri, 12 May 2023 11:32:51 +0200</pubDate></item>
 <item><title>
@@ -61,10 +61,10 @@ How to Push an Existing Project to Github
 <em>Note: If you already have an initialized Git repository, you can skip this command.</em></p>
 
 <hr />
-<p id='twitter'><a href='http://twitter.com/intent/tweet?url=https://bloody-fang.surge.sh/how-to-push-an-existing-project-to-github.html&text=&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;&via=conradmaaijen'>Comments? Tweet</a> 
-<a href='https://twitter.com/search?q=https://bloody-fang.surge.sh/how-to-push-an-existing-project-to-github.html'><span id='count-24855'></span></a>&nbsp;</p>
-]]></description><link>https://bloody-fang.surge.sh/how-to-push-an-existing-project-to-github.html</link>
-<guid>https://bloody-fang.surge.sh/./how-to-push-an-existing-project-to-github.html</guid>
+<p id='twitter'><a href='http://twitter.com/intent/tweet?url=https://bash.maayen.nl/how-to-push-an-existing-project-to-github.html&text=&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;&via=conradmaaijen'>Comments? Tweet</a> 
+<a href='https://twitter.com/search?q=https://bash.maayen.nl/how-to-push-an-existing-project-to-github.html'><span id='count-30448'></span></a>&nbsp;</p>
+]]></description><link>https://bash.maayen.nl/how-to-push-an-existing-project-to-github.html</link>
+<guid>https://bash.maayen.nl/./how-to-push-an-existing-project-to-github.html</guid>
 <dc:creator>Conrad Maaijen</dc:creator>
 <pubDate>Fri, 12 May 2023 09:35:07 +0200</pubDate></item>
 <item><title>
@@ -72,10 +72,10 @@ My first blog post
 </title><description><![CDATA[
 
 <hr />
-<p id='twitter'><a href='http://twitter.com/intent/tweet?url=https://bloody-fang.surge.sh/my-first-blog-post5357.html&text=&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;&via=conradmaaijen'>Comments? Tweet</a> 
-<a href='https://twitter.com/search?q=https://bloody-fang.surge.sh/my-first-blog-post5357.html'><span id='count-28362'></span></a>&nbsp;</p>
-]]></description><link>https://bloody-fang.surge.sh/my-first-blog-post5357.html</link>
-<guid>https://bloody-fang.surge.sh/./my-first-blog-post5357.html</guid>
+<p id='twitter'><a href='http://twitter.com/intent/tweet?url=https://bash.maayen.nl/my-first-blog-post5357.html&text=&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;&via=conradmaaijen'>Comments? Tweet</a> 
+<a href='https://twitter.com/search?q=https://bash.maayen.nl/my-first-blog-post5357.html'><span id='count-10306'></span></a>&nbsp;</p>
+]]></description><link>https://bash.maayen.nl/my-first-blog-post5357.html</link>
+<guid>https://bash.maayen.nl/./my-first-blog-post5357.html</guid>
 <dc:creator>Conrad Maaijen</dc:creator>
 <pubDate>Thu, 11 May 2023 16:04:08 +0200</pubDate></item>
 </channel></rss>

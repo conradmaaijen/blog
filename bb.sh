@@ -24,12 +24,12 @@ global_variables() {
     # The typical subtitle for each blog
     global_description="A blog about trials and errors"
     # The public base URL for this blog
-    global_url="https://bloody-fang.surge.sh"
+    global_url="https://bash.maayen.nl"
 
     # Your name
     global_author="Conrad Maaijen"
     # You can use twitter or facebook or anything for global_author_url
-    global_author_url="http://blog.test"
+    global_author_url="http://bash.maayen.nl"
     # Your email
     global_email="conrad@maayen.nl"
 
