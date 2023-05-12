@@ -44,13 +44,14 @@
     --display-h1-decoration: 1;
     --global-bg-color: #32253C;
     --code-bg-color: #32253C;
-    --global-bg-color: #000000;
-    --code-bg-color: #000000;
+    --global-bg-color: #111111;
+    --code-bg-color: #171717;
 }
 
 pre {
-    background-color: transparent !important;
-    border: 1px solid #E58F48;
+    /* background-color: transparent !important; */
+    background-color: #171717 !important;
+    border: 0px solid #E58F48;
 }
 
 pre code {
@@ -91,7 +92,7 @@ body {
     font-family: var(--font-stack);
     font-size: var(--global-font-size);
     /* background-color: var(--global-bg-color);*/
-    background-color: #000000;
+    background-color: #111111;
     margin-bottom: 75px;
 }
 
@@ -295,3 +296,7 @@ figure {
         padding-top: 5px;;
     }
 }
+
+.terminal .logo, .terminal blockquote, .terminal code, .terminal h1, .terminal h2, .terminal h3, .terminal h4, .terminal h5, .terminal h6, .terminal strong {
+    color: #cc7d24;
+
