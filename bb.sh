@@ -740,7 +740,7 @@ rebuild_index() {
 
     # Create the content file
     {
-	echo "<div class=\"welcome\"><h1>About</h1><p>😊 Hi there</p>"
+	echo "<div class=\"welcome\"><h1>About</h1><p>🦊 Hi there</p>"
 	echo "<ul>"
 	echo "<li><a href=\"https://mastodon.nl/@conrad\" rel=\"me\">$> toot @conrad@mastodon.nl</a></li>"
 	echo "<li><a href=\"https://github.com/conradmaaijen\">$> xdg-open github.com/conradmaaijen</a></li>"
@@ -975,8 +975,8 @@ create_includes() {
     else {
         protected_mail=${global_email//@/\&#64;}
         protected_mail=${protected_mail//./\&#46;}
-        echo "<div class=\"footer\" id=\"footer\">$global_license <a href=\"$global_author_url\">$global_author</a> &mdash; <a href=\"mailto:$protected_mail\">$protected_mail</a><br/>"
-        echo 'Generated with <a href="https://github.com/cfenollosa/bashblog">bashblog</a>, a single bash script to easily create blogs like this one</div>'
+        echo "<div class=\"footer\" id=\"footer\">"
+        echo 'Powered by <a href="https://github.com/cfenollosa/bashblog">bashblog</a> with <a href="https://github.com/mrmierzejewski/hugo-theme-console/">Console Theme</a>.</div>'
         } >> ".footer.html"
     fi
 }

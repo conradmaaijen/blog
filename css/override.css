@@ -58,6 +58,9 @@ pre code {
    overflow-x:auto !important;
 
 }
+hr {
+   border-bottom: 1px dashed #222222;
+}
 
 @media only screen and (max-width: 850px) {
     :root {
@@ -182,8 +185,9 @@ figure {
 .footer {
     clear: both;
     margin-top: 100px;
-    padding-top: 10px;;
-    border-top: 1px solid var(--secondary-color);
+    padding-top: 10px;
+    /* border-top: 1px solid var(--secondary-color); */
+    border-top: 1px solid #333333;
     color: var(--global-font-color);
 }
 

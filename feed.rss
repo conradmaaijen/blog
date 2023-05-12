@@ -2,40 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>#!bash blog</title><link>http://blog.test/index.html</link>
 <description>A blog about trials and errors</description><language>en</language>
-<lastBuildDate>Fri, 12 May 2023 08:57:25 +0200</lastBuildDate>
-<pubDate>Fri, 12 May 2023 08:57:25 +0200</pubDate>
+<lastBuildDate>Fri, 12 May 2023 11:16:58 +0200</lastBuildDate>
+<pubDate>Fri, 12 May 2023 11:16:58 +0200</pubDate>
 <atom:link href="http://blog.test/feed.rss" rel="self" type="application/rss+xml" />
 <item><title>
-This is a attempt to show code
+How to Push an Existing Project to Github
 </title><description><![CDATA[
 
-<p>How will it look like if a block of code is added to this markdown file?  </p>
+<p>From your terminal, run the following commands after navigating to the folder you would like to add.</p>
 
-<pre><code>&lt;?php
+<h2>Initialize the Git Repo</h2>
 
-echo "hello world";
+<p>Make sure you are in the root directory of the project you want to push to GitHub and run: 
+<em>Note: If you already have an initialized Git repository, you can skip this command.</em></p>
 
-?&gt;
+<pre><code>git init
 </code></pre>
 
-<p>Tags: <a href='tag_php.html'>php</a>, <a href='tag_code.html'>code</a></p>
+<p>This step creates a hidden <code>.git</code> directory in your project folder, which the <code>git</code> software recognizes and uses to store all the metadata and version history for the project.</p>
 
-
-
-
-
-
-
-
-
-
-<!-- text end -->
-<p id='twitter'><a href='http://twitter.com/intent/tweet?url=http://blog.test/this-is-a-attempt-to-show-code.html&text=&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;&via=conradmaaijen'>Comments? Tweet</a> 
-<a href='https://twitter.com/search?q=http://blog.test/this-is-a-attempt-to-show-code.html'><span id='count-16168'></span></a>&nbsp;</p>
-]]></description><link>http://blog.test/this-is-a-attempt-to-show-code.html</link>
-<guid>http://blog.test/./this-is-a-attempt-to-show-code.html</guid>
+<hr />
+<p id='twitter'><a href='http://twitter.com/intent/tweet?url=http://blog.test/how-to-push-an-existing-project-to-github.html&text=&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;&via=conradmaaijen'>Comments? Tweet</a> 
+<a href='https://twitter.com/search?q=http://blog.test/how-to-push-an-existing-project-to-github.html'><span id='count-28250'></span></a>&nbsp;</p>
+]]></description><link>http://blog.test/how-to-push-an-existing-project-to-github.html</link>
+<guid>http://blog.test/./how-to-push-an-existing-project-to-github.html</guid>
 <dc:creator>Conrad Maaijen</dc:creator>
-<pubDate>Thu, 11 May 2023 16:20:31 +0200</pubDate></item>
+<pubDate>Fri, 12 May 2023 09:35:07 +0200</pubDate></item>
 <item><title>
 My first blog post
 </title><description><![CDATA[
@@ -55,9 +47,15 @@ as soon as you exit your editor.</p>
 
 
 
+
+
+
+
+
+
 <!-- text end -->
 <p id='twitter'><a href='http://twitter.com/intent/tweet?url=http://blog.test/my-first-blog-post5357.html&text=&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;&via=conradmaaijen'>Comments? Tweet</a> 
-<a href='https://twitter.com/search?q=http://blog.test/my-first-blog-post5357.html'><span id='count-27156'></span></a>&nbsp;</p>
+<a href='https://twitter.com/search?q=http://blog.test/my-first-blog-post5357.html'><span id='count-27935'></span></a>&nbsp;</p>
 ]]></description><link>http://blog.test/my-first-blog-post5357.html</link>
 <guid>http://blog.test/./my-first-blog-post5357.html</guid>
 <dc:creator>Conrad Maaijen</dc:creator>
@@ -81,9 +79,15 @@ as soon as you exit your editor.</p>
 
 
 
+
+
+
+
+
+
 <!-- text end -->
 <p id='twitter'><a href='http://twitter.com/intent/tweet?url=http://blog.test/third-title-on-this-line.html&text=&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;&via=conradmaaijen'>Comments? Tweet</a> 
-<a href='https://twitter.com/search?q=http://blog.test/third-title-on-this-line.html'><span id='count-31352'></span></a>&nbsp;</p>
+<a href='https://twitter.com/search?q=http://blog.test/third-title-on-this-line.html'><span id='count-23373'></span></a>&nbsp;</p>
 ]]></description><link>http://blog.test/third-title-on-this-line.html</link>
 <guid>http://blog.test/./third-title-on-this-line.html</guid>
 <dc:creator>Conrad Maaijen</dc:creator>
@@ -107,9 +111,15 @@ as soon as you exit your editor.</p>
 
 
 
+
+
+
+
+
+
 <!-- text end -->
 <p id='twitter'><a href='http://twitter.com/intent/tweet?url=http://blog.test/another-marvelous-post.html&text=&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;&via=conradmaaijen'>Comments? Tweet</a> 
-<a href='https://twitter.com/search?q=http://blog.test/another-marvelous-post.html'><span id='count-32095'></span></a>&nbsp;</p>
+<a href='https://twitter.com/search?q=http://blog.test/another-marvelous-post.html'><span id='count-4931'></span></a>&nbsp;</p>
 ]]></description><link>http://blog.test/another-marvelous-post.html</link>
 <guid>http://blog.test/./another-marvelous-post.html</guid>
 <dc:creator>Conrad Maaijen</dc:creator>

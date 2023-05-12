@@ -1,0 +1,110 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name=description content="Bash Blog">
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta name=robots content="all,follow">
+<meta name=googlebot content="index,follow,snippet,archive">
+<meta name=generator content="Bashblog 2.10">
+<meta charset=utf-8><meta http-equiv=x-ua-compatible content="IE=edge">
+<link rel=stylesheet href="/css/terminal-0.7.2.min.css">
+<link rel=stylesheet href="/css/animate-4.1.1.min.css">
+<link rel=stylesheet href="/css/console.css">
+<link rel=stylesheet href="/css/override.css">
+<link rel="me" href="https://mastodon.nl/@conrad">
+<title>How to Push an Existing Project to Github</title>
+<meta name='twitter:card' content='summary' />
+<meta name='twitter:site' content='@conradmaaijen' />
+<meta name='twitter:title' content='How to Push an Existing Project to Github' />
+<meta name='twitter:description' content=" From your terminal, run the following commands after navigating to the folder you would like to add.  Initialize the Git Repo  Make sure you are in the root directory of the project you want to push to GitHub and run:  Note: If you already have an i" />
+</head><body>
+<div class="terminal container" id="divbodyholder">
+<div class="terminal-nav"><div class="header">
+<div class="logo terminal-prompt" id="title">
+<span class="nomargin"><a class="ablack" href="http://blog.test/index.html">#!bash blog</a>:~# </span>
+<!-- <div id="description">A blog about trials and errors</div> -->
+</div></div></div>
+<div id="divbody"><div class="content">
+<!-- entry begin -->
+<h1><a class="ablack" href="how-to-push-an-existing-project-to-github.html">
+How to Push an Existing Project to Github
+</a></h1>
+<!-- bashblog_timestamp: #202305120935.07# -->
+<div class="subtitle">May 12, 2023 &mdash; 
+Conrad Maaijen
+</div>
+<!-- text begin -->
+
+<p>From your terminal, run the following commands after navigating to the folder you would like to add.</p>
+
+<h2>Initialize the Git Repo</h2>
+
+<p>Make sure you are in the root directory of the project you want to push to GitHub and run: 
+<em>Note: If you already have an initialized Git repository, you can skip this command.</em></p>
+
+<pre><code>git init
+</code></pre>
+
+<p>This step creates a hidden <code>.git</code> directory in your project folder, which the <code>git</code> software recognizes and uses to store all the metadata and version history for the project.</p>
+
+<hr />
+
+<h2>Add the files to Git index</h2>
+
+<pre><code>git add -A
+</code></pre>
+
+<p>The <code>git add</code> command is used to tell git which files to include in a commit, and the <code>-A</code> (or <code>--all</code>) argument means “include all”.</p>
+
+<h2>Commit Added Files</h2>
+
+<pre><code>git commit -m 'Added my project'
+</code></pre>
+
+<p>The <code>git commit</code> command creates a new commit with all files that have been “added”. The <code>-m</code> (or <code>--message</code>) sets the message that will be included alongside the commit, used for future reference to understand the commit. In this case, the message is: <code>'Added my project'</code>.</p>
+
+<h2>Add a new remote origin</h2>
+
+<pre><code>git remote add origin git@github.com:sammy/my-new-project.git
+</code></pre>
+
+<p><em>Note: Remember, you will need to replace the highlighted parts of the username and repo name with your own username and repo name.</em></p>
+
+<p>In git, a “remote” refers to a remote version of the same repository, which is typically on a server somewhere (in this case, GitHub). “origin” is the default name git gives to a remote server (you can have multiple remotes) so git <code>remote add origin</code> is instructing git to add the URL of the default remote server for this repo.</p>
+
+<h2>Push to GitHub</h2>
+
+<pre><code>git push -u -f origin main
+</code></pre>
+
+<p>The <code>-u</code> (or <code>--set-upstream</code>) flag sets the remote <code>origin</code> as the upstream reference. This allows you to later perform <code>git push</code> and <code>git pull</code> commands without having to specify an <code>origin</code> since we always want GitHub in this case.</p>
+
+<p>The <code>-f</code> (or <code>--force</code>) flag stands for force. This will automatically overwrite everything in the remote directory. We’re using it here to overwrite the default README that GitHub automatically initialized.</p>
+
+<p><em>Note: If you did not include the default README when creating the project on GitHub, the -f flag isn’t really necessary.</em></p>
+
+<h2>All together</h2>
+
+<pre><code>git init
+git add -A
+git commit -m 'Added my project'
+git remote add origin git@github.com:sammy/my-new-project.git
+git push -u -f origin main
+</code></pre>
+
+<p>Tags: <a href='tag_git.html'>git</a>, <a href='tag_github.html'>github</a></p>
+
+
+
+
+
+
+<!-- text end -->
+<p id='twitter'><a href='http://twitter.com/intent/tweet?url=http://blog.test/how-to-push-an-existing-project-to-github.html&text=&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;&via=conradmaaijen'>Comments? Tweet</a> 
+<a href='https://twitter.com/search?q=http://blog.test/how-to-push-an-existing-project-to-github.html'><span id='count-28250'></span></a>&nbsp;</p>
+<!-- entry end -->
+</div>
+<div class="footer" id="footer">
+Powered by <a href="https://github.com/cfenollosa/bashblog">bashblog</a> with <a href="https://github.com/mrmierzejewski/hugo-theme-console/">Console Theme</a>.</div>
+</div></div>
+</body></html>
