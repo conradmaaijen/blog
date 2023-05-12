@@ -24,7 +24,7 @@ global_variables() {
     # The typical subtitle for each blog
     global_description="A blog about trials and errors"
     # The public base URL for this blog
-    global_url="/"
+    global_url="https://bloody-fang.surge.sh"
 
     # Your name
     global_author="Conrad Maaijen"
@@ -156,7 +156,7 @@ global_variables() {
     # same as global_url by default
     # You can change it to path on your computer, if you write posts locally
     # before copying them to the server
-    preview_url=""
+    preview_url="http://blog.test"
 
     # Markdown location. Trying to autodetect by default.
     # The invocation must support the signature 'markdown_bin in.md > out.html'
