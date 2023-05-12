@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
-<channel><title>#!bash conrad</title><link>http://blog.test/index.html</link>
+<channel><title>#!bash conrad</title><link>//index.html</link>
 <description>A blog about trials and errors</description><language>en</language>
-<lastBuildDate>Fri, 12 May 2023 11:38:00 +0200</lastBuildDate>
-<pubDate>Fri, 12 May 2023 11:38:00 +0200</pubDate>
-<atom:link href="http://blog.test/feed.rss" rel="self" type="application/rss+xml" />
+<lastBuildDate>Fri, 12 May 2023 12:41:57 +0200</lastBuildDate>
+<pubDate>Fri, 12 May 2023 12:41:57 +0200</pubDate>
+<atom:link href="//feed.rss" rel="self" type="application/rss+xml" />
 <item><title>
 Create a directory and go into it.
 </title><description><![CDATA[
@@ -15,10 +15,10 @@ E.g. typing <code>mkdir sample</code> and then <code>cd sample</code>.</p>
 <p>Let's create a very small function that always takes you into the directory you just created.</p>
 
 <hr />
-<p id='twitter'><a href='http://twitter.com/intent/tweet?url=http://blog.test/create-a-directory-and-go-into-it.html&text=&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;&via=conradmaaijen'>Comments? Tweet</a> 
-<a href='https://twitter.com/search?q=http://blog.test/create-a-directory-and-go-into-it.html'><span id='count-5157'></span></a>&nbsp;</p>
-]]></description><link>http://blog.test/create-a-directory-and-go-into-it.html</link>
-<guid>http://blog.test/./create-a-directory-and-go-into-it.html</guid>
+<p id='twitter'><a href='http://twitter.com/intent/tweet?url=//create-a-directory-and-go-into-it.html&text=&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;&via=conradmaaijen'>Comments? Tweet</a> 
+<a href='https://twitter.com/search?q=//create-a-directory-and-go-into-it.html'><span id='count-27006'></span></a>&nbsp;</p>
+]]></description><link>//create-a-directory-and-go-into-it.html</link>
+<guid>//./create-a-directory-and-go-into-it.html</guid>
 <dc:creator>Conrad Maaijen</dc:creator>
 <pubDate>Fri, 12 May 2023 11:32:51 +0200</pubDate></item>
 <item><title>
@@ -33,10 +33,10 @@ How to Push an Existing Project to Github
 <em>Note: If you already have an initialized Git repository, you can skip this command.</em></p>
 
 <hr />
-<p id='twitter'><a href='http://twitter.com/intent/tweet?url=http://blog.test/how-to-push-an-existing-project-to-github.html&text=&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;&via=conradmaaijen'>Comments? Tweet</a> 
-<a href='https://twitter.com/search?q=http://blog.test/how-to-push-an-existing-project-to-github.html'><span id='count-4834'></span></a>&nbsp;</p>
-]]></description><link>http://blog.test/how-to-push-an-existing-project-to-github.html</link>
-<guid>http://blog.test/./how-to-push-an-existing-project-to-github.html</guid>
+<p id='twitter'><a href='http://twitter.com/intent/tweet?url=//how-to-push-an-existing-project-to-github.html&text=&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;&via=conradmaaijen'>Comments? Tweet</a> 
+<a href='https://twitter.com/search?q=//how-to-push-an-existing-project-to-github.html'><span id='count-9198'></span></a>&nbsp;</p>
+]]></description><link>//how-to-push-an-existing-project-to-github.html</link>
+<guid>//./how-to-push-an-existing-project-to-github.html</guid>
 <dc:creator>Conrad Maaijen</dc:creator>
 <pubDate>Fri, 12 May 2023 09:35:07 +0200</pubDate></item>
 <item><title>
@@ -66,11 +66,12 @@ as soon as you exit your editor.</p>
 
 
 
+
 <!-- text end -->
-<p id='twitter'><a href='http://twitter.com/intent/tweet?url=http://blog.test/my-first-blog-post5357.html&text=&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;&via=conradmaaijen'>Comments? Tweet</a> 
-<a href='https://twitter.com/search?q=http://blog.test/my-first-blog-post5357.html'><span id='count-15193'></span></a>&nbsp;</p>
-]]></description><link>http://blog.test/my-first-blog-post5357.html</link>
-<guid>http://blog.test/./my-first-blog-post5357.html</guid>
+<p id='twitter'><a href='http://twitter.com/intent/tweet?url=//my-first-blog-post5357.html&text=&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;&via=conradmaaijen'>Comments? Tweet</a> 
+<a href='https://twitter.com/search?q=//my-first-blog-post5357.html'><span id='count-7487'></span></a>&nbsp;</p>
+]]></description><link>//my-first-blog-post5357.html</link>
+<guid>//./my-first-blog-post5357.html</guid>
 <dc:creator>Conrad Maaijen</dc:creator>
 <pubDate>Thu, 11 May 2023 16:04:08 +0200</pubDate></item>
 <item><title>
@@ -100,11 +101,12 @@ as soon as you exit your editor.</p>
 
 
 
+
 <!-- text end -->
-<p id='twitter'><a href='http://twitter.com/intent/tweet?url=http://blog.test/third-title-on-this-line.html&text=&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;&via=conradmaaijen'>Comments? Tweet</a> 
-<a href='https://twitter.com/search?q=http://blog.test/third-title-on-this-line.html'><span id='count-26724'></span></a>&nbsp;</p>
-]]></description><link>http://blog.test/third-title-on-this-line.html</link>
-<guid>http://blog.test/./third-title-on-this-line.html</guid>
+<p id='twitter'><a href='http://twitter.com/intent/tweet?url=//third-title-on-this-line.html&text=&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;&via=conradmaaijen'>Comments? Tweet</a> 
+<a href='https://twitter.com/search?q=//third-title-on-this-line.html'><span id='count-26527'></span></a>&nbsp;</p>
+]]></description><link>//third-title-on-this-line.html</link>
+<guid>//./third-title-on-this-line.html</guid>
 <dc:creator>Conrad Maaijen</dc:creator>
 <pubDate>Thu, 11 May 2023 16:00:17 +0200</pubDate></item>
 <item><title>
@@ -134,11 +136,12 @@ as soon as you exit your editor.</p>
 
 
 
+
 <!-- text end -->
-<p id='twitter'><a href='http://twitter.com/intent/tweet?url=http://blog.test/another-marvelous-post.html&text=&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;&via=conradmaaijen'>Comments? Tweet</a> 
-<a href='https://twitter.com/search?q=http://blog.test/another-marvelous-post.html'><span id='count-16812'></span></a>&nbsp;</p>
-]]></description><link>http://blog.test/another-marvelous-post.html</link>
-<guid>http://blog.test/./another-marvelous-post.html</guid>
+<p id='twitter'><a href='http://twitter.com/intent/tweet?url=//another-marvelous-post.html&text=&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;&via=conradmaaijen'>Comments? Tweet</a> 
+<a href='https://twitter.com/search?q=//another-marvelous-post.html'><span id='count-10930'></span></a>&nbsp;</p>
+]]></description><link>//another-marvelous-post.html</link>
+<guid>//./another-marvelous-post.html</guid>
 <dc:creator>Conrad Maaijen</dc:creator>
 <pubDate>Thu, 11 May 2023 15:30:59 +0200</pubDate></item>
 </channel></rss>

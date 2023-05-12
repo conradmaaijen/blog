@@ -24,7 +24,7 @@ global_variables() {
     # The typical subtitle for each blog
     global_description="A blog about trials and errors"
     # The public base URL for this blog
-    global_url="http://blog.test"
+    global_url="/"
 
     # Your name
     global_author="Conrad Maaijen"
