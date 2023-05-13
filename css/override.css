@@ -32,8 +32,8 @@
 
 :root {
     --global-font-size: 16px;
-    --global-font-color: #E58F48;
-    --font-color: #E58F48;
+    --global-font-color: #cc7d24; /* #E58F48; */
+    --font-color: #cc7d24; /* #E58F48; */
     --invert-font-color: #151515;
     /*--primary-color: #8B531E;*/
     --secondary-color: #9E039A;

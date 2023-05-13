@@ -2,8 +2,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>#!bash conrad</title><link>https://bash.maayen.nl/index.html</link>
 <description>A blog about trials and errors</description><language>en</language>
-<lastBuildDate>Fri, 12 May 2023 17:20:19 +0200</lastBuildDate>
-<pubDate>Fri, 12 May 2023 17:20:19 +0200</pubDate>
+<lastBuildDate>Sat, 13 May 2023 09:24:15 +0200</lastBuildDate>
+<pubDate>Sat, 13 May 2023 09:24:15 +0200</pubDate>
 <atom:link href="https://bash.maayen.nl/feed.rss" rel="self" type="application/rss+xml" />
 <item><title>
 How to generate BarCode in Laravel
@@ -15,7 +15,7 @@ How to generate BarCode in Laravel
 
 <hr />
 <p id='twitter'><a href='http://twitter.com/intent/tweet?url=https://bash.maayen.nl/how-to-generate-barcode-in-laravel.html&text=&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;&via=conradmaaijen'>Comments? Tweet</a> 
-<a href='https://twitter.com/search?q=https://bash.maayen.nl/how-to-generate-barcode-in-laravel.html'><span id='count-32099'></span></a>&nbsp;</p>
+<a href='https://twitter.com/search?q=https://bash.maayen.nl/how-to-generate-barcode-in-laravel.html'><span id='count-7649'></span></a>&nbsp;</p>
 ]]></description><link>https://bash.maayen.nl/how-to-generate-barcode-in-laravel.html</link>
 <guid>https://bash.maayen.nl/./how-to-generate-barcode-in-laravel.html</guid>
 <dc:creator>Conrad Maaijen</dc:creator>
@@ -30,7 +30,7 @@ Better deletion of files with Trash
 
 <hr />
 <p id='twitter'><a href='http://twitter.com/intent/tweet?url=https://bash.maayen.nl/better-deletion-of-files-with-trash.html&text=&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;&via=conradmaaijen'>Comments? Tweet</a> 
-<a href='https://twitter.com/search?q=https://bash.maayen.nl/better-deletion-of-files-with-trash.html'><span id='count-3837'></span></a>&nbsp;</p>
+<a href='https://twitter.com/search?q=https://bash.maayen.nl/better-deletion-of-files-with-trash.html'><span id='count-9946'></span></a>&nbsp;</p>
 ]]></description><link>https://bash.maayen.nl/better-deletion-of-files-with-trash.html</link>
 <guid>https://bash.maayen.nl/./better-deletion-of-files-with-trash.html</guid>
 <dc:creator>Conrad Maaijen</dc:creator>
@@ -44,7 +44,7 @@ E.g. typing <code>mkdir sample</code> and then <code>cd sample</code>.</p>
 
 <hr />
 <p id='twitter'><a href='http://twitter.com/intent/tweet?url=https://bash.maayen.nl/create-a-directory-and-go-into-it.html&text=&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;&via=conradmaaijen'>Comments? Tweet</a> 
-<a href='https://twitter.com/search?q=https://bash.maayen.nl/create-a-directory-and-go-into-it.html'><span id='count-30202'></span></a>&nbsp;</p>
+<a href='https://twitter.com/search?q=https://bash.maayen.nl/create-a-directory-and-go-into-it.html'><span id='count-25090'></span></a>&nbsp;</p>
 ]]></description><link>https://bash.maayen.nl/create-a-directory-and-go-into-it.html</link>
 <guid>https://bash.maayen.nl/./create-a-directory-and-go-into-it.html</guid>
 <dc:creator>Conrad Maaijen</dc:creator>
@@ -62,7 +62,7 @@ How to Push an Existing Project to Github
 
 <hr />
 <p id='twitter'><a href='http://twitter.com/intent/tweet?url=https://bash.maayen.nl/how-to-push-an-existing-project-to-github.html&text=&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;&via=conradmaaijen'>Comments? Tweet</a> 
-<a href='https://twitter.com/search?q=https://bash.maayen.nl/how-to-push-an-existing-project-to-github.html'><span id='count-8292'></span></a>&nbsp;</p>
+<a href='https://twitter.com/search?q=https://bash.maayen.nl/how-to-push-an-existing-project-to-github.html'><span id='count-11734'></span></a>&nbsp;</p>
 ]]></description><link>https://bash.maayen.nl/how-to-push-an-existing-project-to-github.html</link>
 <guid>https://bash.maayen.nl/./how-to-push-an-existing-project-to-github.html</guid>
 <dc:creator>Conrad Maaijen</dc:creator>
@@ -73,7 +73,7 @@ My first blog post
 
 <hr />
 <p id='twitter'><a href='http://twitter.com/intent/tweet?url=https://bash.maayen.nl/my-first-blog-post5357.html&text=&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;&via=conradmaaijen'>Comments? Tweet</a> 
-<a href='https://twitter.com/search?q=https://bash.maayen.nl/my-first-blog-post5357.html'><span id='count-13443'></span></a>&nbsp;</p>
+<a href='https://twitter.com/search?q=https://bash.maayen.nl/my-first-blog-post5357.html'><span id='count-7843'></span></a>&nbsp;</p>
 ]]></description><link>https://bash.maayen.nl/my-first-blog-post5357.html</link>
 <guid>https://bash.maayen.nl/./my-first-blog-post5357.html</guid>
 <dc:creator>Conrad Maaijen</dc:creator>
