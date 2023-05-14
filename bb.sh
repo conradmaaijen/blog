@@ -1179,8 +1179,10 @@ do_main() {
         fi
     fi
 
-    [[ $1 == commit ]] &&
- 	commit_changes "$2" && exit
+    if [[ $1 == commit ]]; then
+ 	commit_changes "$2"
+        exit
+    fi
 
     # Test for existing html files
     if ls ./*.html &> /dev/null; then
