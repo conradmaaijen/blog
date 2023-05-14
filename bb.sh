@@ -1135,7 +1135,6 @@ date_version_detect() {
 
 commit_changes() {
     commitMessage="$*"
-echo "$commitMessage"
 
     if [ "$commitMessage" = "" ]; then
 	commitMessage="wip"
@@ -1143,7 +1142,7 @@ echo "$commitMessage"
 
     git add .
 
-    eval "git commit -m '${commitMessage}' && git push"
+    git commit -m "${commitMessage}" && git push
 }
 
 # Main function
