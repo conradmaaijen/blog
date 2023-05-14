@@ -1137,7 +1137,7 @@ commit_changes() {
     commitMessage="$*"
 echo "$commitMessage"
 
-    if [ "$commitMessage" = ""]; then
+    if [ "$commitMessage" = "" ]; then
 	commitMessage="wip"
     fi
 
