@@ -1133,6 +1133,18 @@ date_version_detect() {
     fi
 }
 
+commit_changes() {
+    commitMessage="$*"
+
+    if [ "$commitMessage" = ""]; then
+	commitMessage="wip"
+    fi
+
+    git add .
+
+    eval "git commit -m '${commitMessage}' && git push"
+}
+
 # Main function
 # Encapsulated on its own function for readability purposes
 #
@@ -1151,7 +1163,7 @@ do_main() {
         echo "Please set your \$EDITOR environment variable. For example, to use nano, add the line 'export EDITOR=nano' to your \$HOME/.bashrc file" && exit
 
     # Check for validity of argument
-    [[ $1 != "reset" && $1 != "post" && $1 != "rebuild" && $1 != "list" && $1 != "edit" && $1 != "delete" && $1 != "tags" ]] &&
+    [[ $1 != "commit" && $1 != "reset" && $1 != "post" && $1 != "rebuild" && $1 != "list" && $1 != "edit" && $1 != "delete" && $1 != "tags" ]] &&
         usage && exit
 
     [[ $1 == list ]] &&
@@ -1166,6 +1178,9 @@ do_main() {
             exit
         fi
     fi
+
+    [[ $1 == commit ]] &&
+ 	commit_changes "$2" && exit
 
     # Test for existing html files
     if ls ./*.html &> /dev/null; then
