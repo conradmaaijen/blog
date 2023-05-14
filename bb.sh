@@ -1135,6 +1135,7 @@ date_version_detect() {
 
 commit_changes() {
     commitMessage="$*"
+echo "$commitMessage"
 
     if [ "$commitMessage" = ""]; then
 	commitMessage="wip"
