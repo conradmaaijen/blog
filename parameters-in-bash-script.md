@@ -1,5 +1,11 @@
 Parameters in bash script
 
+### Positional Parameters
+
+Arguments passed to a script are processed in the same order in which they’re sent. The indexing of the arguments starts at one, and the first argument can be accessed inside the script using $1. Similarly, the second argument can be accessed using $2, and so on. The positional parameter refers to this representation of the arguments using their position.
+
+Let’s take an example of the following script, userReg-positional-parameter.sh, which prints username, age, and full name in that order:
+
 	> ./test.sh one two "three four"
 
 Output:

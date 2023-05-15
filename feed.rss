@@ -2,12 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>#!bash conrad</title><link>https://bash.maayen.nl/index.html</link>
 <description>A blog about trials and errors</description><language>en</language>
-<lastBuildDate>Mon, 15 May 2023 12:02:13 +0200</lastBuildDate>
-<pubDate>Mon, 15 May 2023 12:02:13 +0200</pubDate>
+<lastBuildDate>Mon, 15 May 2023 12:04:09 +0200</lastBuildDate>
+<pubDate>Mon, 15 May 2023 12:04:09 +0200</pubDate>
 <atom:link href="https://bash.maayen.nl/feed.rss" rel="self" type="application/rss+xml" />
 <item><title>
 Parameters in bash script
 </title><description><![CDATA[
+
+<h3>Positional Parameters</h3>
+
+<p>Arguments passed to a script are processed in the same order in which they’re sent. The indexing of the arguments starts at one, and the first argument can be accessed inside the script using $1. Similarly, the second argument can be accessed using $2, and so on. The positional parameter refers to this representation of the arguments using their position.</p>
+
+<p>Let’s take an example of the following script, userReg-positional-parameter.sh, which prints username, age, and full name in that order:</p>
 
 <pre><code>&gt; ./test.sh one two "three four"
 </code></pre>
@@ -119,7 +125,7 @@ Tags: bash
 
 <!-- text end -->
 <p id='twitter'><a href='http://twitter.com/intent/tweet?url=https://bash.maayen.nl/parameters-in-bash-script.html&text=&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;&via=conradmaaijen'>Comments? Tweet</a> 
-<a href='https://twitter.com/search?q=https://bash.maayen.nl/parameters-in-bash-script.html'><span id='count-7854'></span></a>&nbsp;</p>
+<a href='https://twitter.com/search?q=https://bash.maayen.nl/parameters-in-bash-script.html'><span id='count-16276'></span></a>&nbsp;</p>
 ]]></description><link>https://bash.maayen.nl/parameters-in-bash-script.html</link>
 <guid>https://bash.maayen.nl/./parameters-in-bash-script.html</guid>
 <dc:creator>Conrad Maaijen</dc:creator>
