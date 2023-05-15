@@ -2,8 +2,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>#!bash conrad</title><link>https://bash.maayen.nl/index.html</link>
 <description>A blog about trials and errors</description><language>en</language>
-<lastBuildDate>Mon, 15 May 2023 12:34:45 +0200</lastBuildDate>
-<pubDate>Mon, 15 May 2023 12:34:45 +0200</pubDate>
+<lastBuildDate>Mon, 15 May 2023 12:36:21 +0200</lastBuildDate>
+<pubDate>Mon, 15 May 2023 12:36:21 +0200</pubDate>
 <atom:link href="https://bash.maayen.nl/feed.rss" rel="self" type="application/rss+xml" />
 <item><title>
 Parameters in bash script
@@ -15,7 +15,7 @@ Parameters in bash script
 
 <hr>
 <p id='twitter'><a href='http://twitter.com/intent/tweet?url=https://bash.maayen.nl/parameters-in-bash-script.html&text=&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;&via=conradmaaijen'>Comments? Tweet</a> 
-<a href='https://twitter.com/search?q=https://bash.maayen.nl/parameters-in-bash-script.html'><span id='count-13347'></span></a>&nbsp;</p>
+<a href='https://twitter.com/search?q=https://bash.maayen.nl/parameters-in-bash-script.html'><span id='count-28095'></span></a>&nbsp;</p>
 ]]></description><link>https://bash.maayen.nl/parameters-in-bash-script.html</link>
 <guid>https://bash.maayen.nl/./parameters-in-bash-script.html</guid>
 <dc:creator>Conrad Maaijen</dc:creator>
@@ -59,7 +59,7 @@ E.g. typing <code>mkdir sample</code> and then <code>cd sample</code>.</p>
 
 <hr />
 <p id='twitter'><a href='http://twitter.com/intent/tweet?url=https://bash.maayen.nl/create-a-directory-and-go-into-it.html&text=&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;&via=conradmaaijen'>Comments? Tweet</a> 
-<a href='https://twitter.com/search?q=https://bash.maayen.nl/create-a-directory-and-go-into-it.html'><span id='count-28873'></span></a>&nbsp;</p>
+<a href='https://twitter.com/search?q=https://bash.maayen.nl/create-a-directory-and-go-into-it.html'><span id='count-13164'></span></a>&nbsp;</p>
 ]]></description><link>https://bash.maayen.nl/create-a-directory-and-go-into-it.html</link>
 <guid>https://bash.maayen.nl/./create-a-directory-and-go-into-it.html</guid>
 <dc:creator>Conrad Maaijen</dc:creator>

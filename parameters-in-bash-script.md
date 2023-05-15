@@ -105,5 +105,4 @@ The output is the same as before, though we have shifted the positions of the us
     Full Name: John Smith
 
 
-
 Tags: bash
