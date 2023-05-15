@@ -103,4 +103,7 @@ The output is the same as before, though we have shifted the positions of the us
     Username : john
     Age: 25
     Full Name: John Smith
-    Tags: bash
+
+
+
+Tags: bash

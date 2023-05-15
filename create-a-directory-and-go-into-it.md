@@ -20,4 +20,4 @@ Now you just have to type `mkd sample` and you are inside the sample directory.
 Not the most shocking example, but you can use these simple functions to prevent repetitive commands.
 
 
-Tags: bash-scripts
+Tags: bash
