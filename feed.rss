@@ -2,9 +2,93 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>#!bash conrad</title><link>https://bash.maayen.nl/index.html</link>
 <description>A blog about trials and errors</description><language>en</language>
-<lastBuildDate>Sun, 14 May 2023 16:49:27 +0200</lastBuildDate>
-<pubDate>Sun, 14 May 2023 16:49:27 +0200</pubDate>
+<lastBuildDate>Mon, 15 May 2023 09:25:50 +0200</lastBuildDate>
+<pubDate>Mon, 15 May 2023 09:25:50 +0200</pubDate>
 <atom:link href="https://bash.maayen.nl/feed.rss" rel="self" type="application/rss+xml" />
+<item><title>
+Parameters in bash script
+</title><description><![CDATA[
+
+<pre><code>&gt; ./test.sh one two "three four"
+</code></pre>
+
+<p>Output:</p>
+
+<pre><code>$1 = one
+$2 = two
+$3 = three four
+
+# Size of the input array
+$# = 3
+</code></pre>
+
+<p>Example script:</p>
+
+<h1>!/bin/bash</h1>
+
+<pre><code>echo "Using \"\$*\":"
+for a in "$*"; do
+    echo $a;
+done
+
+echo -e "\nUsing \$*:"
+for a in $*; do
+    echo $a;
+done
+
+echo -e "\nUsing \"\$@\":"
+for a in "$@"; do
+    echo $a;
+done
+
+echo -e "\nUsing \$@:"
+for a in $@; do
+    echo $a;
+done
+</code></pre>
+
+<p>The explanation and the results for the four cases are below.</p>
+
+<p>In the first case, the parameters are regarded as one long quoted string:</p>
+
+<pre><code>Using "$*":
+one two three four
+</code></pre>
+
+<p>Case 2 (unquoted) - the string is broken into words by the for loop:</p>
+
+<pre><code>Using $*:
+one
+two
+three
+four
+</code></pre>
+
+<p>Case 3 - it treats each element of $@ as a quoted string:</p>
+
+<pre><code>Using "$@":
+one
+two
+three four
+</code></pre>
+
+<p>Last case - it treats each element as an unquoted string, so the last one is again split by what amounts to for three four:</p>
+
+<pre><code>Using $@:
+one
+two
+three
+four
+</code></pre>
+
+<p>Tags: <a href='tag_bash.html'>bash</a></p>
+<!-- text end -->
+<p id='twitter'><a href='http://twitter.com/intent/tweet?url=https://bash.maayen.nl/parameters-in-bash-script.html&text=&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;&via=conradmaaijen'>Comments? Tweet</a> 
+<a href='https://twitter.com/search?q=https://bash.maayen.nl/parameters-in-bash-script.html'><span id='count-19137'></span></a>&nbsp;</p>
+]]></description><link>https://bash.maayen.nl/parameters-in-bash-script.html</link>
+<guid>https://bash.maayen.nl/./parameters-in-bash-script.html</guid>
+<dc:creator>Conrad Maaijen</dc:creator>
+<pubDate>Mon, 15 May 2023 09:25:45 +0200</pubDate></item>
 <item><title>
 How to generate BarCode in Laravel
 </title><description><![CDATA[
@@ -67,15 +151,4 @@ How to Push an Existing Project to Github
 <guid>https://bash.maayen.nl/./how-to-push-an-existing-project-to-github.html</guid>
 <dc:creator>Conrad Maaijen</dc:creator>
 <pubDate>Fri, 12 May 2023 09:35:07 +0200</pubDate></item>
-<item><title>
-My first blog post
-</title><description><![CDATA[
-
-<hr />
-<p id='twitter'><a href='http://twitter.com/intent/tweet?url=https://bash.maayen.nl/my-first-blog-post5357.html&text=&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;&via=conradmaaijen'>Comments? Tweet</a> 
-<a href='https://twitter.com/search?q=https://bash.maayen.nl/my-first-blog-post5357.html'><span id='count-7843'></span></a>&nbsp;</p>
-]]></description><link>https://bash.maayen.nl/my-first-blog-post5357.html</link>
-<guid>https://bash.maayen.nl/./my-first-blog-post5357.html</guid>
-<dc:creator>Conrad Maaijen</dc:creator>
-<pubDate>Thu, 11 May 2023 16:04:08 +0200</pubDate></item>
 </channel></rss>
