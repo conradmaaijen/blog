@@ -13,8 +13,6 @@ Output:
 
 Example script:
 
-    ```#!/bin/bash```
-
     echo "Using \"\$*\":"
     for a in "$*"; do
         echo $a;
