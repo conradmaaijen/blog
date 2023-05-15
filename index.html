@@ -113,10 +113,47 @@ three
 four
 </code></pre>
 
-<p>Tags: <a href='tag_bash.html'>bash</a></p>
+<h2>Flags</h2>
+
+<p>Another way of passing input to a script is using flags.</p>
+
+<pre><code>sh test.sh -f 'John Smith' -a 25 -u john
+</code></pre>
+
+<p>We’ll modify the earlier script to use flags instead of relying on positional parameters. The getopts function reads the flags in the input, and OPTARG refers to the corresponding values:</p>
+
+<pre><code>#!/bin/bash
+
+while getopts u:a:f: flag
+do
+    case "${flag}" in
+        u) username=${OPTARG};;
+        a) age=${OPTARG};;
+        f) fullname=${OPTARG};;
+    esac
+done
+
+echo "Username: $username";
+echo "Age: $age";
+echo "Full Name: $fullname";
+</code></pre>
+
+<p>Let’s run this script with the same input as before, only this time, we’ll add flags to the input:</p>
+
+<pre><code>sh test.sh -f 'John Smith' -a 25 -u john
+</code></pre>
+
+<p>The output is the same as before, though we have shifted the positions of the username and full name arguments:</p>
+
+<pre><code>Username : john
+Age: 25
+Full Name: John Smith
+Tags: bash
+</code></pre>
+
 <!-- text end -->
 <p id='twitter'><a href='http://twitter.com/intent/tweet?url=https://bash.maayen.nl/parameters-in-bash-script.html&text=&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;&via=conradmaaijen'>Comments? Tweet</a> 
-<a href='https://twitter.com/search?q=https://bash.maayen.nl/parameters-in-bash-script.html'><span id='count-19137'></span></a>&nbsp;</p>
+<a href='https://twitter.com/search?q=https://bash.maayen.nl/parameters-in-bash-script.html'><span id='count-32483'></span></a>&nbsp;</p>
 <h1><a class="ablack" href="how-to-generate-barcode-in-laravel.html">
 How to generate BarCode in Laravel
 </a></h1>
