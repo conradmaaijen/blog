@@ -13,7 +13,7 @@ Output:
 
 Example script:
 
-#!/bin/bash
+    ```#!/bin/bash```
 
     echo "Using \"\$*\":"
     for a in "$*"; do
