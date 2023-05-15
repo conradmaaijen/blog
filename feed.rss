@@ -2,8 +2,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>#!bash conrad</title><link>https://bash.maayen.nl/index.html</link>
 <description>A blog about trials and errors</description><language>en</language>
-<lastBuildDate>Mon, 15 May 2023 12:04:09 +0200</lastBuildDate>
-<pubDate>Mon, 15 May 2023 12:04:09 +0200</pubDate>
+<lastBuildDate>Mon, 15 May 2023 12:05:52 +0200</lastBuildDate>
+<pubDate>Mon, 15 May 2023 12:05:52 +0200</pubDate>
 <atom:link href="https://bash.maayen.nl/feed.rss" rel="self" type="application/rss+xml" />
 <item><title>
 Parameters in bash script
@@ -13,119 +13,9 @@ Parameters in bash script
 
 <p>Arguments passed to a script are processed in the same order in which they’re sent. The indexing of the arguments starts at one, and the first argument can be accessed inside the script using $1. Similarly, the second argument can be accessed using $2, and so on. The positional parameter refers to this representation of the arguments using their position.</p>
 
-<p>Let’s take an example of the following script, userReg-positional-parameter.sh, which prints username, age, and full name in that order:</p>
-
-<pre><code>&gt; ./test.sh one two "three four"
-</code></pre>
-
-<p>Output:</p>
-
-<pre><code>$1 = one
-$2 = two
-$3 = three four
-
-# Size of the input array
-$# = 3
-</code></pre>
-
-<p>Example script:</p>
-
-<pre><code>echo "Using \"\$*\":"
-for a in "$*"; do
-    echo $a;
-done
-
-echo -e "\nUsing \$*:"
-for a in $*; do
-    echo $a;
-done
-
-echo -e "\nUsing \"\$@\":"
-for a in "$@"; do
-    echo $a;
-done
-
-echo -e "\nUsing \$@:"
-for a in $@; do
-    echo $a;
-done
-</code></pre>
-
-<p>The explanation and the results for the four cases are below.</p>
-
-<p>In the first case, the parameters are regarded as one long quoted string:</p>
-
-<pre><code>Using "$*":
-one two three four
-</code></pre>
-
-<p>Case 2 (unquoted) - the string is broken into words by the for loop:</p>
-
-<pre><code>Using $*:
-one
-two
-three
-four
-</code></pre>
-
-<p>Case 3 - it treats each element of $@ as a quoted string:</p>
-
-<pre><code>Using "$@":
-one
-two
-three four
-</code></pre>
-
-<p>Last case - it treats each element as an unquoted string, so the last one is again split by what amounts to for three four:</p>
-
-<pre><code>Using $@:
-one
-two
-three
-four
-</code></pre>
-
-<h2>Flags</h2>
-
-<p>Another way of passing input to a script is using flags.</p>
-
-<pre><code>sh test.sh -f 'John Smith' -a 25 -u john
-</code></pre>
-
-<p>We’ll modify the earlier script to use flags instead of relying on positional parameters. The getopts function reads the flags in the input, and OPTARG refers to the corresponding values:</p>
-
-<pre><code>`#!/bin/bash
-
-while getopts u:a:f: flag
-do
-    case "${flag}" in
-        u) username=${OPTARG};;
-        a) age=${OPTARG};;
-        f) fullname=${OPTARG};;
-    esac
-done
-
-echo "Username: $username";
-echo "Age: $age";
-echo "Full Name: $fullname";
-</code></pre>
-
-<p>Let’s run this script with the same input as before, only this time, we’ll add flags to the input:</p>
-
-<pre><code>sh test.sh -f 'John Smith' -a 25 -u john
-</code></pre>
-
-<p>The output is the same as before, though we have shifted the positions of the username and full name arguments:</p>
-
-<pre><code>Username : john
-Age: 25
-Full Name: John Smith
-Tags: bash
-</code></pre>
-
-<!-- text end -->
+<hr>
 <p id='twitter'><a href='http://twitter.com/intent/tweet?url=https://bash.maayen.nl/parameters-in-bash-script.html&text=&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;&via=conradmaaijen'>Comments? Tweet</a> 
-<a href='https://twitter.com/search?q=https://bash.maayen.nl/parameters-in-bash-script.html'><span id='count-16276'></span></a>&nbsp;</p>
+<a href='https://twitter.com/search?q=https://bash.maayen.nl/parameters-in-bash-script.html'><span id='count-6434'></span></a>&nbsp;</p>
 ]]></description><link>https://bash.maayen.nl/parameters-in-bash-script.html</link>
 <guid>https://bash.maayen.nl/./parameters-in-bash-script.html</guid>
 <dc:creator>Conrad Maaijen</dc:creator>
