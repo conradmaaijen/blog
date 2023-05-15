@@ -73,7 +73,7 @@ Another way of passing input to a script is using flags.
 
 We’ll modify the earlier script to use flags instead of relying on positional parameters. The getopts function reads the flags in the input, and OPTARG refers to the corresponding values:
 
-    #!/bin/bash
+    `#!/bin/bash
 
     while getopts u:a:f: flag
     do
