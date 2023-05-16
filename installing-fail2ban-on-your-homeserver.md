@@ -60,4 +60,4 @@ You wil see the number of ips that are blocked.
 
 Now your data on your server will be on a little bit safer place.
 
-Tags: keep-this-tag-format, tags-are-optional, beware-with-underscores-in-markdown, example
+Tags: linux
