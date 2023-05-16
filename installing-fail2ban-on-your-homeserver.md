@@ -54,7 +54,7 @@ In order to see which jails are defined you can use following command:
 
 And to see the status of the particular jail:
 
-	sudo faul2ban-client status sshd
+	sudo fail2ban-client status sshd
 
 You wil see the number of ips that are blocked.
 
