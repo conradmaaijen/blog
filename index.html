@@ -45,71 +45,9 @@ Conrad Maaijen
 Great idea! Why would you order a vps if you have a space computer and have a internet connection. But as soon as you put the portforwarding rule in your 
 router and you take a look at your log files, it looks like the whole evil world is trying to login at your server at the same time!</p>
 
-<p>So lets install <strong>Fail2Ban</strong> in order to try to keep those evil persons out.</p>
-
-<h2>Fail2ban</h2>
-
-<p>In the example below i assume you have a ubuntu / debian based linux server installed. Of course Fail2Ban can be installed
-on other distros too, but then you will have to use your own package manager in order to install the pakkages.</p>
-
-<p>First make sure that your server is uptodate.</p>
-
-<pre><code>$ sudo apt update &amp;&amp; sudo apt upgrade
-</code></pre>
-
-<p>Then install fail2ban with apt (or other package manager)</p>
-
-<pre><code>$ sudo apt install fail2ban
-</code></pre>
-
-<p>Enable the service</p>
-
-<pre><code>$ sudo systemctl enable fail2ban.service
-</code></pre>
-
-<p>Let's create a configuration file </p>
-
-<pre><code>sudo nano /etc/fail2ban/jail.local
-
-[sshd]
-enabled = true
-port = ssh
-filter = sshd
-logpath = /var/log/auth.log
-maxretry = 3
-findtime = 300
-bantime = 3600
-ignoreip = 127.0.0.1 ::1
-ban.multipliers = 1 2 4 8 16 32 64
-</code></pre>
-
-<p>Restart the service</p>
-
-<pre><code>sudo systemctl restart fail2ban.service
-</code></pre>
-
-<p>Now if everything wen the way it should be you can u the client to see the status</p>
-
-<h2>Fail2ban-client</h2>
-
-<p>In order to see which jails are defined you can use following command:</p>
-
-<pre><code>sudo fail2ban-client status
-</code></pre>
-
-<p>And to see the status of the particular jail:</p>
-
-<pre><code>sudo faul2ban-client status sshd
-</code></pre>
-
-<p>You wil see the number of ips that are blocked.</p>
-
-<p>Now your data on your server will be on a little bit safer place.</p>
-
-<p>Tags: <a href='tag_keep-this-tag-format.html'>keep-this-tag-format</a>, <a href='tag_tags-are-optional.html'>tags-are-optional</a>, <a href='tag_beware-with-underscores-in-markdown.html'>beware-with-underscores-in-markdown</a>, <a href='tag_example.html'>example</a></p>
-<!-- text end -->
+<p class="readmore"><a href="./installing-fail2ban-on-your-homeserver.html">Read more...</a></p>
 <p id='twitter'><a href='http://twitter.com/intent/tweet?url=https://bash.maayen.nl/installing-fail2ban-on-your-homeserver.html&text=&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;&via=conradmaaijen'>Comments? Tweet</a> 
-<a href='https://twitter.com/search?q=https://bash.maayen.nl/installing-fail2ban-on-your-homeserver.html'><span id='count-7145'></span></a>&nbsp;</p>
+<a href='https://twitter.com/search?q=https://bash.maayen.nl/installing-fail2ban-on-your-homeserver.html'><span id='count-5225'></span></a>&nbsp;</p>
 <h1><a class="ablack" href="parameters-in-bash-script.html">
 Parameters in bash script
 </a></h1>

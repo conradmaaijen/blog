@@ -4,6 +4,8 @@ At some point you have the idea of installing a server at home becuase you want 
 Great idea! Why would you order a vps if you have a space computer and have a internet connection. But as soon as you put the portforwarding rule in your 
 router and you take a look at your log files, it looks like the whole evil world is trying to login at your server at the same time!
 
+<hr>
+
 So lets install **Fail2Ban** in order to try to keep those evil persons out.
 
 ## Fail2ban
