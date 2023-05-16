@@ -2,9 +2,86 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>#!bash conrad</title><link>https://bash.maayen.nl/index.html</link>
 <description>A blog about trials and errors</description><language>en</language>
-<lastBuildDate>Mon, 15 May 2023 12:39:09 +0200</lastBuildDate>
-<pubDate>Mon, 15 May 2023 12:39:09 +0200</pubDate>
+<lastBuildDate>Tue, 16 May 2023 13:18:54 +0200</lastBuildDate>
+<pubDate>Tue, 16 May 2023 13:18:54 +0200</pubDate>
 <atom:link href="https://bash.maayen.nl/feed.rss" rel="self" type="application/rss+xml" />
+<item><title>
+Installing Fail2Ban on your (home)server
+</title><description><![CDATA[
+
+<p>At some point you have the idea of installing a server at home becuase you want to store backups or want to share fotos eg. 
+Great idea! Why would you order a vps if you have a space computer and have a internet connection. But as soon as you put the portforwarding rule in your 
+router and you take a look at your log files, it looks like the whole evil world is trying to login at your server at the same time!</p>
+
+<p>So lets install <strong>Fail2Ban</strong> in order to try to keep those evil persons out.</p>
+
+<h2>Fail2ban</h2>
+
+<p>In the example below i assume you have a ubuntu / debian based linux server installed. Of course Fail2Ban can be installed
+on other distros too, but then you will have to use your own package manager in order to install the pakkages.</p>
+
+<p>First make sure that your server is uptodate.</p>
+
+<pre><code>$ sudo apt update &amp;&amp; sudo apt upgrade
+</code></pre>
+
+<p>Then install fail2ban with apt (or other package manager)</p>
+
+<pre><code>$ sudo apt install fail2ban
+</code></pre>
+
+<p>Enable the service</p>
+
+<pre><code>$ sudo systemctl enable fail2ban.service
+</code></pre>
+
+<p>Let's create a configuration file </p>
+
+<pre><code>sudo nano /etc/fail2ban/jail.local
+
+[sshd]
+enabled = true
+port = ssh
+filter = sshd
+logpath = /var/log/auth.log
+maxretry = 3
+findtime = 300
+bantime = 3600
+ignoreip = 127.0.0.1 ::1
+ban.multipliers = 1 2 4 8 16 32 64
+</code></pre>
+
+<p>Restart the service</p>
+
+<pre><code>sudo systemctl restart fail2ban.service
+</code></pre>
+
+<p>Now if everything wen the way it should be you can u the client to see the status</p>
+
+<h2>Fail2ban-client</h2>
+
+<p>In order to see which jails are defined you can use following command:</p>
+
+<pre><code>sudo fail2ban-client status
+</code></pre>
+
+<p>And to see the status of the particular jail:</p>
+
+<pre><code>sudo faul2ban-client status sshd
+</code></pre>
+
+<p>You wil see the number of ips that are blocked.</p>
+
+<p>Now your data on your server will be on a little bit safer place.</p>
+
+<p>Tags: <a href='tag_keep-this-tag-format.html'>keep-this-tag-format</a>, <a href='tag_tags-are-optional.html'>tags-are-optional</a>, <a href='tag_beware-with-underscores-in-markdown.html'>beware-with-underscores-in-markdown</a>, <a href='tag_example.html'>example</a></p>
+<!-- text end -->
+<p id='twitter'><a href='http://twitter.com/intent/tweet?url=https://bash.maayen.nl/installing-fail2ban-on-your-homeserver.html&text=&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;&via=conradmaaijen'>Comments? Tweet</a> 
+<a href='https://twitter.com/search?q=https://bash.maayen.nl/installing-fail2ban-on-your-homeserver.html'><span id='count-7145'></span></a>&nbsp;</p>
+]]></description><link>https://bash.maayen.nl/installing-fail2ban-on-your-homeserver.html</link>
+<guid>https://bash.maayen.nl/./installing-fail2ban-on-your-homeserver.html</guid>
+<dc:creator>Conrad Maaijen</dc:creator>
+<pubDate>Tue, 16 May 2023 13:18:51 +0200</pubDate></item>
 <item><title>
 Parameters in bash script
 </title><description><![CDATA[
@@ -64,22 +141,4 @@ E.g. typing <code>mkdir sample</code> and then <code>cd sample</code>.</p>
 <guid>https://bash.maayen.nl/./create-a-directory-and-go-into-it.html</guid>
 <dc:creator>Conrad Maaijen</dc:creator>
 <pubDate>Fri, 12 May 2023 11:32:51 +0200</pubDate></item>
-<item><title>
-How to Push an Existing Project to Github
-</title><description><![CDATA[
-
-<p>From your terminal, run the following commands after navigating to the folder you would like to add.</p>
-
-<h2>Initialize the Git Repo</h2>
-
-<p>Make sure you are in the root directory of the project you want to push to GitHub and run: 
-<em>Note: If you already have an initialized Git repository, you can skip this command.</em></p>
-
-<hr />
-<p id='twitter'><a href='http://twitter.com/intent/tweet?url=https://bash.maayen.nl/how-to-push-an-existing-project-to-github.html&text=&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;&via=conradmaaijen'>Comments? Tweet</a> 
-<a href='https://twitter.com/search?q=https://bash.maayen.nl/how-to-push-an-existing-project-to-github.html'><span id='count-17346'></span></a>&nbsp;</p>
-]]></description><link>https://bash.maayen.nl/how-to-push-an-existing-project-to-github.html</link>
-<guid>https://bash.maayen.nl/./how-to-push-an-existing-project-to-github.html</guid>
-<dc:creator>Conrad Maaijen</dc:creator>
-<pubDate>Fri, 12 May 2023 09:35:07 +0200</pubDate></item>
 </channel></rss>
